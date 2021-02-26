@@ -28,6 +28,7 @@ header .logo img{
 }
 
 nav.menu-mobile{
+    float: right;
     display: none;
 }
 
@@ -42,7 +43,7 @@ header nav.menu-desktop ul{
 
 header nav.menu-desktop ul li{
     float: left;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0 20px;
     text-transform: uppercase;
 }
@@ -79,7 +80,7 @@ section.servicos > .container{
 section.servicos > .container .box-servico{
     background-image: url('../images/icone_dente.png');
     background-size: 18px 18px;
-    background-position: center calc(100% - 5px);
+    background-position: center calc(100% - 10px);
     background-repeat: no-repeat;
 }
 
@@ -169,7 +170,6 @@ section.perfil-container .texto-perfil p{
 
     nav.menu-mobile{
         display: block;
-        float: right;
     }
 
     section.servicos > .container{
@@ -235,10 +235,6 @@ section.perfil-container .texto-perfil p{
     section.perfil-container .img-perfil{
         width: 80%;
         padding-top: 110%;
-       /*display: inline-block;
-        height: auto;
-        background-image: url(../images/img_perfil.png);
-        background-size: 100% 100%;*/
     }
 }
 
